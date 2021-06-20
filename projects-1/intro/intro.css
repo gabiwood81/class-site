@@ -3,7 +3,7 @@ body {
 background-repeat: repeat-x;
 background-position: bottom;
   background-blend-mode: multiply;
-  background-size: 50px 900px;
+  background-size: 70px 800px;
   background-color: lemonchifon;
 }
 a:hover {
@@ -32,7 +32,7 @@ h3 {  font-size:48px;
       text-decoration: seagreen dashed overline;
       text-decoration-style: dotted;
       text-decoration-skip: ink;
-  margin-bottom: -6px;
+  margin-bottom: -12px;
   margin-top: -12px;
   line-height: 50px;
     padding: 50px;
