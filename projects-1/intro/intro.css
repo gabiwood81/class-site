@@ -22,7 +22,7 @@ h2 {  font-size:35px;
     text-align: center;
 font-family: 'Amatic SC', cursive;
 }
-h3 {  font-size:50px;
+h3 {  font-size:48px;
   margin-bottom: -6px;
   margin-top: -12px;
   line-height: 50px;
@@ -38,6 +38,13 @@ h4 {  font-size:35px;
     margin-top: -30px;
 font-family: 'Amatic SC', cursive;
 }
+h5 {font-size:50px;
+  line-height: 70px;
+  text-align: center;
+    padding: 50px;
+    margin-bottom: -100px;
+    margin-top: -30px;
+font-family: 'Amatic SC', cursive;}
 img {
   border: 1px solid #ddd;
   border-radius: 4px;
