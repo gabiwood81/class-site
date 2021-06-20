@@ -4,7 +4,7 @@ background-repeat: repeat-x;
 background-position: bottom;
   background-blend-mode: multiply;
   background-size: 50px 900px;
-  background-color: yellow;
+  background-color: lemonchifon;
 }
 a:hover {
   background-color:pink;
@@ -13,7 +13,7 @@ a {
   color: seagreen;
 }
 h1 { font-size:100px;
-  color: pink;
+  color: orangered;
   margin-bottom: -6px;
   margin-top: 100px;
   -webkit-text-stroke: 1px black;
