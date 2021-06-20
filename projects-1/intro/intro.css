@@ -1,15 +1,16 @@
 body {
-  background-image: url("newback-01.png");
-background-repeat: repeat-repeat-x;
-  background-blend-mode: lighten;
-  background-size: 300px 100px;
+  background-image: url("newback-01-01.png");
+background-repeat: repeat-x;
+background-position: bottom;
+  background-blend-mode: multiply;
+  background-size: 50px 900px;
   background-color: yellow;
 }
 a:hover {
   background-color:pink;
 }
 a {
-  color: orangered;
+  color: seagreen;
 }
 h1 { font-size:100px;
   color: pink;
