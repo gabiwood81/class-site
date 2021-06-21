@@ -12,7 +12,7 @@ h1 { font-size:200px;
   color: royalblue;
   font-kerning: none;
   font-weight: bolder;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   margin-top: -10px;
   -webkit-text-stroke: .4px yellow;
   line-height: 180px;
@@ -38,6 +38,7 @@ border-style: double;
 border-width: thick;
   -webkit-text-stroke: 1px orangered;
 font-weight: bolder;
+font-style: italic;
 font-kerning: normal;
 font-family: 'Open Sans Condensed', sans-serif;
 }
