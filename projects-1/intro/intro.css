@@ -21,8 +21,7 @@ h1 { font-size:100px;
   line-height: 0px;
   text-align: center;
     padding: 50px;
-    text-shadow: rgb(255, 0, 0);
-font-family: 'Modak', cursive;}
+font-family: 'Pirata One', cursive;}
 h2 {  font-size:35px;
   line-height: 40px;
     padding: 50px;
@@ -56,6 +55,8 @@ h5 {font-size:50px;
     margin-bottom: 10px;
     margin-top: -30px;
 font-family: 'Amatic SC', cursive;}
+}
+ul{list-style: georgian;}
 h6 {  font-size:48px;
   margin-bottom: -100px;
   margin-top: -12px;
