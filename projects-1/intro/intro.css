@@ -11,6 +11,7 @@ a:hover {
 }
 a {
   color: seagreen;
+  text-decoration-style: dotted;
 }
 h1 { font-size:110px;
   color: orangered;

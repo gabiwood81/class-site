@@ -3,7 +3,7 @@ body {
 }
 a {
   color: orangered;
-  text-decoration-style: double;
+  text-decoration-style: dotted;
 }
 a:hover {
   background-color:gold;
@@ -36,6 +36,8 @@ color: orangered;
 padding: 20px;
 border-style: double;
 border-width: thick;
+border-spacing: inherit;
+border-collapse: separate;
   -webkit-text-stroke: 1px orangered;
 font-weight: bolder;
 font-style: italic;
