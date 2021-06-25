@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+p {
+  text-align:center;
+   animation: pulse 2s infinite alternate;}
+
+.circle {
+  background:lightblue;
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+margin: 100px auto;
+  animation-name: pulse;
+  animation-duration:1s;
+  animation-interation-count: infinite;
+  animation-direction: alternate;
+
+  animation: pulse 2s infinite alternate;
+}
+
+.square{
+  background: orangered;
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+  animation: spin 2s infinite linear;
+  animation-timing-function:
+}
+
+.zoomer{
+  background: lightgreen;
+  width: 250px;
+  height: 50px;
+  animation: zoom 4s infinite linear;
+}
+
+@keyframes pulse {
+  0% {
+    background: lightblue;
+    transform: scale(1);
+  }
+50% {
+  background:yellow;
+}
+
+100% {
+  background: yellow;
+  transform: scale(2);
+}
+  100% {
+  background: lightblue;
+  }
+}
+
+@keyframes spin{
+  0% {
+    transform: rotate(0deg);
+  }
+  100%{
+  transform: rotate(360deg);
+  }
+}
+
+@keyframes zoom {
+  0% {
+  transform: translateX(-100vw);
+  }
+  40%{
+  background: lightblue;
+  }
+  50% {
+    background: seagreen;
+  }
+  60% {
+    background: lightblue
+  }
+  100% {
+  transform: translateX(100vw);
+  }
+}
