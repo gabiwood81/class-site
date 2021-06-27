@@ -1,0 +1,233 @@
+*{
+  box-sizing:content-box;
+}
+
+body {
+  margin: 0 auto;
+}
+.needle {
+  background: rgb(162, 162, 162);
+  width: 30px;
+  height:450px;
+  right: 165px;
+  bottom: -70px;
+  border-radius: 10%;
+  margin: 0px 0px 50px 0px;
+  position: fixed;
+  border-style: inset;
+  border-color:white;
+  border-width: thick;
+  z-index:9;
+ animation-name: move;
+ animation-duration: 10500ms;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+ transform-origin: top;
+}
+@keyframes move {
+  0% {
+    transform:rotate(30deg);
+    }
+    80% {
+      transform:rotate(40deg);
+    }
+    100% {
+      transform:rotate(20deg);
+    }
+    0% {
+      transform:rotate(20deg);
+    }
+  }
+
+.button1 {
+  background: black;
+  width: 60px;
+  height: 60px;
+  right: 0;
+  bottom: 0;
+  margin: 0px 60px 50px 0px;
+  border-radius: 50%;
+  border-style: inset;
+  border-width: thick;
+  border-color: white;
+  position: absolute;
+}
+
+.button2 {
+  background: black;
+  width: 80px;
+  height: 100px;
+  right: 84px;
+  top: 0;
+  z-index: 99;
+  margin: 50px;
+  border-radius: 30%;
+  border-style: inset;
+  border-width: thick;
+  border-color: white;
+  position: absolute;
+  animation-name: move;
+  animation-duration: 10500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-origin: top;
+
+}
+@keyframes move {
+  0% {
+    transform:rotate(30deg);
+    }
+    80% {
+      transform:rotate(40deg);
+    }
+    100% {
+      transform:rotate(20deg);
+    }
+    0% {
+      transform:rotate(20deg);
+    }
+  }
+
+
+.orange {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.background {
+  background: black;
+  border-radius: 5%;
+  width: 900px;
+  height: 600px;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  position: absolute;
+
+}
+.background2 {
+  background:black;
+  border-radius: 5%;
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  position: absolute;
+}
+.background3 {
+  background:rgb(31, 168, 236);
+  width: 1100px;
+  height: 800px;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  border-radius: 5%;
+  transform:translate(-50%,-50%);
+  position: absolute;
+  transition:border-radius 1s ease, width 1s linear, height 1s ease, background 1s ease;
+
+}
+.background3:hover{
+  border-radius:0;
+  width:1100px;
+  height:800px;
+  background: seagreen;
+}
+
+.background4 {
+  background:rgb(246, 108, 49);
+  width: 1200px;
+  height: 900px;
+  margin: 0 auto;
+  border-radius: 5%;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  position: absolute;
+  transform:translate(-50%,-50%);
+  position: absolute;
+  transition:border-radius 1s ease, width 1s linear, height 1s ease, background 1s ease;
+  /* border-style: double;
+  border-color: white;
+  border-width: thick; */
+}
+.background4:hover{
+  border-radius:0;
+  width:1200px;
+  height:900px;
+  background: rgb(255, 223, 9);}
+
+.square {
+  background: rgb(88, 62, 39);
+  width: 800px;
+  height:500px;
+  margin: 0 auto;
+  border-radius: 5%;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  border-style: outset;
+  border-width: thick;
+  border-color: rgb(82, 60, 35);
+  position: absolute;
+  z-index: .2;
+
+
+}
+
+.record {
+  background: black;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left:-50px;
+  border-style: inset;
+  border-color: white;
+animation-name: spin;
+ animation-duration: 2000ms;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.yellow {
+  background:rgb(255, 223, 9);
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  border-style: ridge;
+  border-color:white;
+  border-width: thick;
+  position: absolute;
+  margin: 0 auto;
+  top: 17.5%;
+  left: 17.5%;
+
+}
+
+  .center {
+    background: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: inset;
+    border-width: thick;
+    border-color: white;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
