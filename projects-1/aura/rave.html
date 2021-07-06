@@ -10,15 +10,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body>
-      <style>
-        <a {cursor: url(jellyfish.png"), url(custom.cur"), default;
-      }
-      </style>
-    <script>
-      var audio = new Audio ('jellyfishjam.mp4');
-      audio.play();
-      </script>
+
+
+      <script>
+   var bflat = new Audio();
+   bflat.src = "jellyfishjam.mp4";
+   function PlaySound() {
+       bflat.play();
+}
+</script>
+
+<!-- <audio autoplay="true" hidden="hidden">
+ <source src="cowboytheme.mp3" type="audio/mpeg">
+</audio> -->
+<body>
+ <audio id="jellyfishjam.mp4"> </audio>
+   <button  class="button" onclick="PlaySound()"> JELLY JAM </button>
+
     <a href="index.html">
      <div class="box">
       </div></a>
