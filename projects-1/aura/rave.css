@@ -1,0 +1,337 @@
+*{
+  box-sizing:content-box;
+}
+
+body {
+  margin: 0;
+  background: black;
+}
+
+img{
+  max-width: 100%;
+}
+body{
+  margin:0;
+
+}
+
+.box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 75px;
+  height:75px;
+  background-color:rgb(51, 255, 65);
+  animation-name: moving,rotate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  /*animation-timing-function: linear; */
+
+}
+.box2{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 75px;
+  height:75px;
+  background-color:rgb(51, 255, 65);
+  animation-name: moving2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  /*animation-timing-function: linear; */
+}
+.box3{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 75px;
+  height:75px;
+  background-color:rgb(51, 255, 65);
+  animation-name: moving3;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  /*animation-timing-function: linear; */
+
+  }
+  .box4{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 75px;
+    height:75px;
+    background-color:rgb(51, 255, 65);
+    animation-name: moving4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    /*animation-timing-function: linear; */
+
+}
+/* .box5{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 75px;
+  height:75px;
+  background-color:rgb(51, 255, 65);
+  animation-name: moving5;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  /*animation-timing-function: linear; */
+
+
+.box:hover {
+  color: rgb(255, 85, 167);
+  background: rgb(255, 247, 45);
+  box-shadow: 0 0 10px rgb(255, 85, 167), 0 0 40px rgb(255, 85, 167), 0 0 80px orangered;
+  border-radius:2%;
+}
+.box2:hover {
+  color: rgb(255, 85, 167);
+  background: yellowgreen;
+  box-shadow: 0 0 10px rgb(255, 85, 167), 0 0 40px rgb(255, 85, 167), 0 0 80px rgb(255, 85, 167);
+  border-radius:2%;
+}
+.box3:hover {
+  color: rgb(255, 85, 167);
+  background: orangered;
+  box-shadow: 0 0 10px orangered, 0 0 40px rgb(255, 85, 167), 0 0 80px rgb(255, 85, 167);
+  border-radius:2%;
+}
+.box4:hover {
+  color: rgb(255, 85, 167);
+  background: turquoise;
+  box-shadow: 0 0 10px rgb(255, 85, 167), 0 0 40px rgb(255, 85, 167), 0 0 80px orangered;
+  border-radius:2%;
+}
+body { text-align:center; }
+
+.box {
+  position: static;
+}
+
+.circle {
+  background:orangered;
+  width: 10px;
+  height: 10px;
+  border-radius:50%;
+  margin-top: 800px;
+  justify-content: center;
+  display: inline-flex;
+  animation: bounce .5s .5s;
+  transform: scale(.85);
+  animation-iteration-count: infinite;
+}
+.circle2 {
+   background: deeppink;
+   width:20px;
+   height: 20px;
+   margin-top: 800px;
+   align-items: center;
+  justify-content: center;
+   border-radius:50%;
+   display:inline-flex;
+   animation: bounce .5s .5s;
+   transform: scale(.85);
+    animation-iteration-count: infinite;
+
+  }
+  .circle3 {
+     background: yellowgreen;
+     width:10px;
+     height: 10px;
+     margin-top: 800px;
+       justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     display:inline-flex;
+     animation: bounce .5s .5s;
+     transform: scale(.85);
+      animation-iteration-count: infinite;
+
+    }  .circle:hover {
+        color: rgb(255, 85, 167);
+        background: deeppink;
+        box-shadow: 0 0 10px rgb(255, 85, 167), 0 0 40px rgb(255, 85, 167), 0 0 80px rgb(255, 85, 167);
+        border-radius:50%;
+
+}  .circle2:hover {
+      color: rgb(255, 85, 167);
+      background: yellow;
+      box-shadow: 0 0 10px rgb(255, 85, 167), 0 0 40px rgb(255, 85, 167), 0 0 80px rgb(255, 85, 167);
+      border-radius:50%;
+
+  }  .circle3:hover {
+      color: rgb(255, 85, 167);
+      background: turquoise;
+      box-shadow: 0 0 10px rgb(255, 85, 167), 0 0 40px rgb(255, 85, 167), 0 0 80px rgb(255, 85, 167);
+      border-radius:50%;
+
+/*
+.bounce {
+  animation: bounce .5s .5s;
+  transform: scale(.85);
+   animation-iteration-count: infinite; */
+}
+
+@keyframes bounce {
+  0% { transform: scale(5); opacity: 1 }
+  50% { transform: scale(4); opacity: 0.5; }
+  60% { transform: scale(3); opacity: 1 }
+  80% { transform: scale(2)  }
+  100% { transform: scale(1) }
+}
+
+@keyframes moving {
+  0% { left: 0;
+       top: 0;
+  }
+
+  25% { left: 0;
+        top: calc(100% - 75px);
+        background-color: orangered;
+  }
+
+  50% {
+    top: calc(100% - 75px); /* - the height of the box */
+    left: calc(100% - 75px); /* - the width of the box */
+    background-color: deeppink;
+  }
+
+  75% {
+    left: calc(100% - 75px);
+    top: 0;
+    background-color: yellow;
+  }
+
+  100% {
+    left: 0;
+    top: 0;
+    background-color: turquoise;
+  }
+}
+@keyframes moving2 {
+  0% { left: 50;
+       top: 50;
+  }
+
+  25% { left: 50;
+        top: calc(80% - 75px);
+        background-color: deeppink;
+  }
+
+  50% {
+    top: calc(80% - 60px); /* - the height of the box */
+    left: calc(80% - 75px); /* - the width of the box */
+    background-color: greenyellow;
+  }
+
+  75% {
+    left: calc(80% - 75px);
+    top: 0;
+    background-color: orangered;
+  }
+
+  100% {
+    left: 50;
+    top: 0;
+    background-color: deeppink;
+  }
+}
+  @keyframes moving4 {
+    0% { left: 30;
+         top: 30;
+    }
+
+    25% { left: 30;
+          top: calc(40% - 75px);
+          background-color: turquoise;
+    }
+
+    50% {
+      top: calc(40% - 60px); /* - the height of the box */
+      left: calc(40% - 75px); /* - the width of the box */
+      background-color: yellow;
+    }
+
+    75% {
+      left: calc(40% - 75px);
+      top: 0;
+      background-color: violet;
+    }
+
+    100% {
+      left: 30;
+      top: 0;
+      background-color: orangered;
+    }
+  }
+    @keyframes moving3 {
+      0% { left: 20;
+           top: 20;
+      }
+
+      25% { left: 20;
+            top: calc(60% - 75px);
+            background-color: yellowgreen;
+      }
+
+      50% {
+        top: calc(60% - 60px); /* - the height of the box */
+        left: calc(60% - 75px); /* - the width of the box */
+        background-color: orangered;
+      }
+
+      75% {
+        left: calc(60% - 75px);
+        top: 0;
+        background-color: deeppink;
+      }
+
+      100% {
+        left: 30;
+        top: 0;
+        background-color: yellow;
+      }
+    }
+      @keyframes moving5 {
+        0% { left: 20;
+             top: 2;
+
+        }
+
+        25% { right: 20;
+              right: calc(0% - 75px);
+              left: calc(50% - 75px);
+              background-color: violet;
+        }
+
+        50% {
+          top: calc(90% - 60px); /* - the height of the box */
+          right: calc(60% - 75px); /* - the width of the box */
+          background-color: turquoise;
+        }
+
+        75% {
+          left: calc(60% - 75px);
+          top: 0;
+          background-color: yellow;
+        }
+
+        100% {
+          right: 30;
+          top: 0;
+          background-color: yellowgreen;
+        }
+
+  animation: pulse 1s infinite;
+}
