@@ -3,8 +3,15 @@
 }
 
 body {
-  margin: 0;
+  margin: 100;
   background: black;
+  background-image: url("spongebob.gif");
+  background-repeat: repeat-x;
+  background-position: center;
+  /* border-color: linear-gradient(deeppink,yellow,yellowgreen,orangered); */
+  /* border-width: thick; */
+  justify-content: center;
+  align-items: center;
 }
 
 img{
@@ -17,10 +24,10 @@ body{
 
 .box {
   position: fixed;
-  left: 0;
-  top: 0;
-  width: 75px;
-  height:75px;
+  left: -1;
+  top: -1;
+  width:90px;
+  height:90px;
   background-color:rgb(51, 255, 65);
   animation-name: moving,rotate;
   animation-duration: 2s;
@@ -34,8 +41,8 @@ body{
   position: fixed;
   left: 0;
   top: 0;
-  width: 75px;
-  height:75px;
+  width: 90px;
+  height:90px;
   background-color:rgb(51, 255, 65);
   animation-name: moving2;
   animation-duration: 2s;
@@ -48,8 +55,8 @@ body{
   position: fixed;
   left: 0;
   top: 0;
-  width: 75px;
-  height:75px;
+  width: 90px;
+  height:90px;
   background-color:rgb(51, 255, 65);
   animation-name: moving3;
   animation-duration: 2s;
@@ -63,9 +70,10 @@ body{
     position: fixed;
     left: 0;
     top: 0;
-    width: 75px;
-    height:75px;
+    width: 90px;
+    height:90px;
     background-color:rgb(51, 255, 65);
+
     animation-name: moving4;
     animation-duration: 2s;
     animation-fill-mode: forwards;
